@@ -21,8 +21,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #pragma once
 
 // place overrides here
-#define OLED_BRIGHTNESS 255
-#define OLED_FADE_OUT
-#define OLED_FADE_OUT_INTERVAL 2
+#define OLED_BRIGHTNESS 1
 #define OLED_TIMEOUT 15000
 #define OLED_SCROLL_TIMEOUT 3000
