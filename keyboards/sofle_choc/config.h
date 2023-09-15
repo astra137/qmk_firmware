@@ -16,15 +16,6 @@
 
 #pragma once
 
-#include "config_common.h"
-
-// USB Device descriptor parameter
-#define VENDOR_ID       0xFC32 // Copied from sofle/rev1 so that Via works
-#define PRODUCT_ID      0x0287 // Copied from sofle/rev1 so that Via works
-#define DEVICE_VER      0x0001
-#define MANUFACTURER    Brian Low
-#define PRODUCT         Sofle Choc
-
 // Key matrix size
 // Rows are doubled-up
 #define MATRIX_ROWS 10
@@ -51,9 +42,9 @@
 #define USE_SERIAL
 #define SOFT_SERIAL_PIN D2
 
-#ifdef RGB_MATRIX_ENABLE
-#define RGB_DI_PIN D3
-#define RGBLED_NUM 29
-#define DRIVER_LED_TOTAL 58
-#define RGB_MATRIX_SPLIT { 29, 29 }
-#endif
+// #ifdef RGB_MATRIX_ENABLE
+// #define RGB_DI_PIN D3
+// #define RGBLED_NUM 29
+// #define DRIVER_LED_TOTAL 58
+// #define RGB_MATRIX_SPLIT { 29, 29 }
+// #endif
